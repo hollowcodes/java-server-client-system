@@ -4,7 +4,8 @@ import FileService.fileserver;
 import javax.swing.*;
 
 public class run {
-
+    
+    // run this once for server, then run the client/s
     public static void main(String[] agrs) throws Exception {
 
         run frst = new run();
@@ -12,7 +13,6 @@ public class run {
 
     }
 
-    /* FIRST SERVER */
     public void run_frst() throws Exception{
 
         String[] options = new String[] {"Server", "Client"};
